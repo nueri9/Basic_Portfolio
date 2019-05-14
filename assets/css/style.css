@@ -47,6 +47,11 @@ border-bottom: 1px solid #cccccc;
 
 }
 
+a {
+    color: #777777;
+    font-style: normal;
+}
+
 #seg5 {
 
     background: #ffffff;
