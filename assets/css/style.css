@@ -1,107 +1,104 @@
 header {
+    position: relative;
+    width: 100%;
+    height: 80px;
+
     background:  #ffffff;
-    height: 70px;
     box-sizing: border-box;
+    border-bottom: 1px solid #cccccc;
+    
+    box-sizing: border-box;   
+}
+
+#name {
+position: absolute;
+bottom: 0px;
+left: 150px;
+height: 50px;
+width: 15%;
+
+background: #4aaaa5;
+
+font-size: 30px;
+color: white;
+text-align: center;
+padding-top: 20px;
+
+}
+
+#info {
+
+    position: absolute;
+    left: 940px;
+    text-align: center;
+    top: 30px;
     
 }
 
 
-#seg1 {
-background:  #ffffff;
-float: left;
-width: 15%;
-padding: 35px 0px;
-border-bottom: 1px solid #cccccc;
-
-}
-
-#seg2 {
-background: #4aaaa5;
-color:  #ffffff;
-font-size: 30px;
-text-align: center;
-float: left;
-width: 15%;
-padding: 17.9px 0px;
-border-bottom: 1px solid #cccccc;
-
-}
-
-#seg3{
-background: #ffffff;
-float: left;
-width: 40%;
-padding: 35px 0px;
-border-bottom: 1px solid #cccccc;
-}
-
-#seg4 {
-
-    background: #ffffff;
-    float: left;
-    width: 20%;
-    color: #777777;
-    padding: 26px 0px;
-    text-align: center;
-    border-bottom: 1px solid #cccccc;
-
-}
 
 a {
     color: #777777;
     font-style: normal;
-}
-
-#seg5 {
-
-    background: #ffffff;
-    float: left;
-    width: 10%;
-    padding: 35px 0px;
-    border-bottom: 1px solid #cccccc;
-
+    text-decoration: none;
 }
 
 
  #full{
 
+position: relative;
 background-image: url("white-waves.png");
 height: 600px;
 clear: both;
-
-
+width: 100%;
 
 }
 
 #content{
 
-width: 800px; 
-position: relative;
-top: 100px;
+width: 960px; 
+position: absolute;
+top: 50px;
 bottom: 100px;
-left: 200px;
+left: 150px;
+right: 200px;
 background:  #ffffff;
-overflow: hidden;
+height: 450px;
 border: 1px solid #dddddd;
 
 }
 
 #header2 {
-position: relative;
-left: 10px;
-font-size: 20px;
-color:  #4aaaa5;
-text-align: left;
+position: absolute;
+width: 920px;
+top: 0px;
+bottom: 100px;
+left: 20px;
+right: 200px;
 border-bottom: 2px solid gray;
 background:  #ffffff;
-padding: 20px 0px 10px 0px ;
-margin-bottom: 10px;
+
+height: 80px
 
 }
 
+#text1 {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    color:  #4aaaa5;
+    bottom: 20px;
+    
+}
+
+
+
+
 #image {
-float: left;
-margin-left: 10px;
+position: absolute;
+top: 90px;
+left: 20px;
+
 width: 20%;
 box-sizing: border-box;
 
@@ -109,17 +106,12 @@ box-sizing: border-box;
 
 #para1 {
  
-float: left;
+position: absolute;
+top: 70px;
+left: 220px;
 background:  #ffffff;
-width: 70%;
-height: 175px;
-box-sizing: border-box;
-
-
-position: relative;
-left: 25px;
-bottom: 15px;
-
+width: 75%;
+height: 170px;
 line-height: 1.5;
 color: #777777;
 
@@ -127,21 +119,31 @@ color: #777777;
 }
 
 #para2 {
-    clear: both;
-    margin-left: 10px;
-    color: #777777;
+    
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    background:  #ffffff;
+    width: 95%;
     line-height: 1.5;
+    color: #777777;
 }
 
 #para3 {
-    margin-left: 10px;
-    color: #777777;
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    background:  #ffffff;
+    width: 95%;
     line-height: 1.5;
+    color: #777777;
+    
 }
 
 #band1 {
     background:  #4aaaa5;
     height: 7px;
+    
 }
 
 #band2 {
@@ -153,6 +155,5 @@ color: #777777;
     color:  #ffffff ;
     font-size: 10px ;
     
-
     
 }
