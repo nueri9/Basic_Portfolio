@@ -13,7 +13,7 @@ header {
 #name {
 position: absolute;
 bottom: 0px;
-left: 150px;
+left: 180px;
 height: 50px;
 width: 15%;
 
@@ -29,7 +29,7 @@ padding-top: 20px;
 #info {
 
     position: absolute;
-    left: 940px;
+    left: 980px;
     text-align: center;
     top: 30px;
     
@@ -44,11 +44,24 @@ a {
 }
 
 
- #full{
+
+
+#full{
+
+    position: relative;
+    background-image: url("white-waves.png");
+    height: 700px;
+    clear: both;
+    width: 100%;
+    
+    }
+
+
+ #full1{
 
 position: relative;
 background-image: url("white-waves.png");
-height: 600px;
+height: 900px;
 clear: both;
 width: 100%;
 
@@ -60,13 +73,27 @@ width: 960px;
 position: absolute;
 top: 50px;
 bottom: 100px;
-left: 150px;
-right: 200px;
+left: 180px;
+right: 150px;
 background:  #ffffff;
 height: 450px;
 border: 1px solid #dddddd;
 
 }
+
+#content1{
+
+    width: 960px; 
+    position: absolute;
+    top: 50px;
+    bottom: 100px;
+    left: 180px;
+    right: 150px;
+    background:  #ffffff;
+    height: 600px;
+    border: 1px solid #dddddd;
+    
+    }
 
 #header2 {
 position: absolute;
@@ -75,12 +102,103 @@ top: 0px;
 bottom: 100px;
 left: 20px;
 right: 200px;
-border-bottom: 2px solid gray;
+border-bottom: 4px solid #dddddd;;
 background:  #ffffff;
 
-height: 80px
+height: 80px;
 
 }
+
+
+#name1 {
+position: absolute;
+color: #777777;
+top: 110px;
+left: 20px;
+
+}
+
+#myname {
+    position: absolute;
+    color: #777777;
+    top: 140px;
+    left: 20px;
+    border: 1px solid #dddddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 910px;
+    padding-left: 10px;
+    }
+
+    #email {
+        position: absolute;
+        color: #777777;
+        top: 200px;
+        left: 20px;
+        
+        }
+
+    #myemail {
+    position: absolute;
+    color: #777777;
+    top: 230px;
+    left: 20px;
+    border: 1px solid #dddddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 910px;
+    padding-left: 10px;
+    }
+
+    #message {
+        position: absolute;
+        color: #777777;
+        top: 290px;
+        left: 20px;
+        
+        }
+    
+    #box {
+    position: absolute;
+    color: #777777;
+    top: 320px;
+    left: 20px;
+    border: 1px solid #dddddd;
+    padding-top: 10px;
+    padding-bottom: 160px;
+    width: 910px;
+    padding-left: 10px;
+     }
+
+
+     #submit {
+    
+    position: absolute;
+    top: 520px;
+    left: 20px;
+    width: 80px;
+    height: 30px;
+    
+    background:#4aaaa5;
+    
+     }
+    
+     #s{
+    position: absolute;
+
+    color: white;
+    text-align: center;
+    top: 5px;
+    bottom: 5px;
+    left: 4px;
+    right: 5px;
+     }
+    
+    
+    
+        
+
+
 
 #text1 {
     position: absolute;
@@ -157,3 +275,5 @@ color: #777777;
     
     
 }
+
+
